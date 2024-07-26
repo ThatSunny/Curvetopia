@@ -18,7 +18,7 @@ def plot(paths_xys, colors=None):
     for i, xy_paths in enumerate(paths_xys):
         c = colors[i % len(colors)]
         for xy in xy_paths:
-            ax.plot(xy[:, 0], xy[:, 1], color=c, linewidth=2)
+            ax.plot(xy[0], xy[1], color=c, linewidth=2)
 
     ax.set_aspect('equal')
     plt.show()
