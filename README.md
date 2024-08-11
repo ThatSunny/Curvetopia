@@ -52,6 +52,7 @@ path_id, x, y
 - **Curve Completion**: Develop methods to automatically complete curves that are fragmented or incomplete.
 
 ## Snapshots 
+<img src="snapshots/Figure_1.png" height="100">
 ![](snapshots/Figure_1.png)
 ![](snapshots/Figure_2.png)
 ![](snapshots/Figure_3.png)
