@@ -1,2 +1,36 @@
-data_processing/__pycache__/
-problems/
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore VS Code-specific files
+.vscode/
+
+# Ignore data/output folder (if it contains large files)
+data/output/
+
+# Ignore compiled output files
+*.svg
+*.png
+*.html
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore distribution and build files
+dist/
+build/
+*.egg-info/
