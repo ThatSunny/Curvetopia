@@ -15,13 +15,9 @@ venv.bak/
 # Ignore VS Code-specific files
 .vscode/
 
-# Ignore data/output folder (if it contains large files)
-data/output/
-
 # Ignore compiled output files
 *.svg
 *.png
-*.html
 
 # Ignore pytest cache
 .pytest_cache/
